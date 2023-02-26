@@ -1,0 +1,17 @@
+import { initializeApp } from 'firebase/app';
+import { getAnalytics } from 'firebase/analytics';
+
+const firebaseConfig = {
+  apiKey: 'AIzaSyCxPQS7OFVOZvtJV0B7uqP2iTRhl0Q0azs',
+  authDomain: 'my-app-backend-cb973.firebaseapp.com',
+  projectId: 'my-app-backend-cb973',
+  storageBucket: 'my-app-backend-cb973.appspot.com',
+  messagingSenderId: '190073635084',
+  appId: '1:190073635084:web:51e43035fb7ada1776c929',
+  measurementId: 'G-KM013FS3CE',
+};
+
+const app = initializeApp(firebaseConfig);
+// const analytics = getAnalytics(app);
+
+export default app;
